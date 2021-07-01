@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  padding: 1.5rem 2rem;
+  background-color: #000;
+  color: #fff;
+  border-bottom: 0.1rem solid #999;
+}
+
+header .logo {
+  flex: 1;
+}
+
+header .menu {
+  
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu .box-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+
+.menu .box-icon .box-icon-info {
+  display: block;
+  margin-left: 10px;
+}
+
+
+.menu .box-icon .box-icon-info a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:14px;
+}
+
+.menu .box-icon .icon:hover,
+.menu .box-icon .box-icon-info a:hover
+{
+  color:#9E8462;
+
+}
+
+
+.menu .box-icon .box-icon-info p {
+  font-size:13px;
+}
+
+/* Second Menu */
+
+.menu-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  height:70px;
+  width:100%;
+  
+}
+
+ .menu-down ul{
+  display: flex;
+}
+
+.menu-down ul li {
+  margin-left: 2rem;
+  list-style: none;
+  transition: all ease 0.2s;
+}
+.menu-down ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-down ul li:before {
+  content:"";
+}
+
+.menu-down ul li:after {
+  content:"|";
+  margin-left:30%;
+}
+
+.menu-down ul li:last-child:after {
+  content:"";
+}
+
+.menu-down ul li a:hover {
+  color:#9E8462;
+  cursor: pointer;
+}
+
+/* BOX-SEARCH */
+.box-search {
+  display: flex;
+  margin-right: 2rem;
+  background: #1A1A1A;
+}
+
+.box-search input {
+  border: none;
+  height:50px;
+  width:250px;
+  background: #1A1A1A;
+  text-indent: 10px;
+  color: #999;
+}
+
+.box-search .search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:60px;
+  background-color: #9E8462;
+  cursor: pointer;
+  color: #fff;
+}
