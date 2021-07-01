@@ -1,9 +1,14 @@
   # Barbearia Menshine
-<img src="../Exercicio/src/assets/images/logo.jpg" />
-<hr>
+
+<center>
+
+![title-icon](https://user-images.githubusercontent.com/52933241/124191064-96d00a00-da99-11eb-8f95-232ba8b70957.png)
+
+</center>
+
 
 ## Tecnolodias usadas: 
-* HTML
+* HTML 
 * CSS
 * Responsividade
 
